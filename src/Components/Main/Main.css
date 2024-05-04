@@ -1,0 +1,19 @@
+main {
+    flex-grow: 1;
+}
+
+section {
+    padding-top: 20px;
+}
+
+.card-wrapper {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+@media(max-width:1200px) {
+    .card-wrapper {
+        justify-content: center;
+    }
+}

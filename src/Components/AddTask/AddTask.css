@@ -1,0 +1,85 @@
+input {
+    padding: 7px 9px 7px 8px;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    width: 100%;
+    min-height: 35px;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.input {
+    max-width: 258px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 11px;
+}
+
+.underline {
+    display: inline-block;
+    bottom: 7px;
+    left: 13px;
+    position: absolute;
+    width: 89%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.add-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 105px;
+    padding-left: 6px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.add-card p {
+    color: #5e6c84;
+}
+
+.add-card:hover {
+    background-color: #fff;
+}
+
+.submit-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 102px;
+    background-color: #0079bf;
+    padding-left: 9px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.submit-card p {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
